@@ -1,96 +1,71 @@
 "use client";
 
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { FaGithub, FaExternalLinkAlt, FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { motion } from "framer-motion";
+import { FaGithub, FaExternalLinkAlt, FaStar, FaRocket } from "react-icons/fa";
 import { portfolioData } from "@/lib/data";
 import { Project } from "@/lib/types";
 
-const projects = Object.values(portfolioData.projects);
+// const featuredProjects = Object.values(portfolioData.projects).filter(p => p.featured).slice(0, 4); //! i wont use it.
+const featuredProjects = Object.values(portfolioData.projects); // i use it.
 
 export default function Projects() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const projectsPerPage = 3;
-  const totalPages = Math.ceil(projects.length / projectsPerPage);
-
-  const currentProjects = projects.slice(
-    currentIndex * projectsPerPage,
-    (currentIndex + 1) * projectsPerPage
-  );
-
-  const nextSlide = () => {
-    setCurrentIndex((prev) => (prev + 1) % totalPages);
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex((prev) => (prev - 1 + totalPages) % totalPages);
-  };
-
   return (
-    <section id="projects" className="py-24 relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="projects" className="py-24 relative bg-slate-950">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            My <span className="gradient-text">Projects</span>
+          <div className="flex items-center gap-3 mb-4">
+            <FaStar className="text-amber-400" />
+            <span className="text-cyan-400 font-medium">Featured Work</span>
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+            <span className="text-white">Products I&apos;ve </span>
+            <span className="bg-linear-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">
+              Built
+            </span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-cyan-500 to-blue-500 mx-auto rounded-full" />
-          <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
-            Some of the projects I&apos;ve worked on
+          <p className="text-slate-400 text-lg max-w-2xl">
+            Real products serving real users. These are the projects I&apos;m most proud of -
+            from AI platforms to enterprise solutions.
           </p>
         </motion.div>
 
-        <div className="relative">
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={currentIndex}
-              initial={{ opacity: 0, x: 100 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -100 }}
-              transition={{ duration: 0.5 }}
-              className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
-            >
-              {currentProjects.map((project: Project, index) => (
-                <ProjectCard key={project.title} project={project} index={index} />
-              ))}
-            </motion.div>
-          </AnimatePresence>
-
-          <div className="flex justify-center mt-8 gap-4">
-            <button
-              onClick={prevSlide}
-              className="p-3 glass rounded-full hover:bg-white/10 transition-all duration-300"
-              aria-label="Previous projects"
-            >
-              <FaChevronLeft className="w-5 h-5" />
-            </button>
-            <div className="flex items-center gap-2">
-              {Array.from({ length: totalPages }).map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => setCurrentIndex(i)}
-                  className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                    i === currentIndex
-                      ? "w-8 bg-gradient-to-r from-cyan-500 to-blue-500"
-                      : "bg-gray-600"
-                  }`}
-                />
-              ))}
-            </div>
-            <button
-              onClick={nextSlide}
-              className="p-3 glass rounded-full hover:bg-white/10 transition-all duration-300"
-              aria-label="Next projects"
-            >
-              <FaChevronRight className="w-5 h-5" />
-            </button>
-          </div>
+        <div className="grid md:grid-cols-2 gap-8">
+          {featuredProjects.map((project: Project, index) => (
+            <ProjectCard key={project.title} project={project} index={index} />
+          ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          viewport={{ once: true }}
+          className="mt-16 p-8 bg-gradient-to-r from-cyan-500/10 to-emerald-500/10 border border-cyan-500/20 rounded-2xl"
+        >
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div className="flex items-center gap-4">
+              <div className="p-4 bg-cyan-500/20 rounded-xl">
+                <FaRocket className="w-8 h-8 text-cyan-400" />
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-white">Have a project in mind?</h3>
+                <p className="text-slate-400">Let&apos;s discuss how we can work together.</p>
+              </div>
+            </div>
+            <a
+              href="#contact"
+              className="px-8 py-4 bg-white text-slate-900 rounded-full font-semibold hover:bg-slate-100 transition-all duration-300 whitespace-nowrap"
+            >
+              Get In Touch
+            </a>
+          </div>
+        </motion.div>
       </div>
     </section>
   );
@@ -99,58 +74,73 @@ export default function Projects() {
 function ProjectCard({ project, index }: { project: Project; index: number }) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, delay: 0.1 * index }}
+      transition={{ duration: 0.6, delay: index * 0.1 }}
       viewport={{ once: true }}
-      className="glass rounded-xl overflow-hidden group hover:bg-white/10 transition-all duration-300"
+      className="group relative bg-slate-900/50 border border-slate-800 rounded-2xl overflow-hidden hover:border-cyan-500/30 transition-all duration-500"
     >
-      <div className="h-48 overflow-hidden relative">
+      <div className="absolute top-4 right-4 z-10">
+        {project.featured && (
+          <span className="px-3 py-1 bg-cyan-500/20 text-cyan-400 text-xs font-medium rounded-full border border-cyan-500/30">
+            Featured
+          </span>
+        )}
+      </div>
+
+      <div className="aspect-video overflow-hidden bg-slate-800">
         <img
           src={project.image}
           alt={project.title}
-          className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+          className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-dark/90 to-transparent" />
       </div>
+
       <div className="p-6">
-        <h3 className="text-xl font-bold mb-2 group-hover:text-cyan-400 transition-colors">
+        <div className="flex items-center gap-2 mb-3">
+          <span className="text-sm text-slate-500">{project.date}</span>
+        </div>
+
+        <h3 className="text-xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors">
           {project.title}
         </h3>
-        <p className="text-gray-400 text-sm mb-4 line-clamp-2">
+
+        <p className="text-slate-400 text-sm mb-5 leading-relaxed">
           {project.description}
         </p>
-        <div className="flex flex-wrap gap-2 mb-4">
-          {project.techStack.slice(0, 4).map((tech) => (
+
+        <div className="flex flex-wrap gap-2 mb-5">
+          {project.techStack.slice(0, 5).map((tech) => (
             <span
               key={tech}
-              className="px-2 py-1 text-xs rounded-full bg-cyan-500/20 text-cyan-400"
+              className="px-3 py-1 text-xs rounded-full bg-slate-800 text-slate-300 border border-slate-700"
             >
               {tech}
             </span>
           ))}
         </div>
+
         <div className="flex gap-4">
-          {project.github && (
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
-            >
-              <FaGithub className="w-4 h-4" />
-              Code
-            </a>
-          )}
           {project.link && (
             <a
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors"
+              className="flex items-center gap-2 text-sm text-cyan-400 hover:text-cyan-300 transition-colors"
             >
               <FaExternalLinkAlt className="w-3 h-3" />
-              Live
+              View Project
+            </a>
+          )}
+          {project.github && (
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors"
+            >
+              <FaGithub className="w-4 h-4" />
+              Source
             </a>
           )}
         </div>

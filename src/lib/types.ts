@@ -20,6 +20,7 @@ export interface Project {
   github: string;
   techStack: string[];
   image: string;
+  featured?: boolean;
 }
 
 export interface Experience {
@@ -30,30 +31,49 @@ export interface Experience {
   image: string;
 }
 
-export interface Contest {
+export interface Achievement {
   title: string;
   date: string;
-  location: string;
+  location?: string;
   description: string;
-  logo: string;
-  certificate: string;
+  logo?: string;
+  certificate?: string;
+  icon?: string;
+}
+
+export interface Featured {
+  company: string;
+  tagline: string;
+  description: string;
+  website: string;
+  role: string;
+}
+
+export interface SocialLinks {
+  linkedin: string;
+  github: string;
+  medium: string;
+  email: string;
+  leetcode?: string;
+  codeforces?: string;
 }
 
 export interface Skills {
   programmingLanguages: string[];
   WebDev: string[];
-  "developmentTools:": string[];
-  "coreCompetencies:": string[];
-  operatingSystems: string[];
-  problemSolvingPlatforms: string[];
+  cloud?: string[];
+  tools?: string[];
+  domains?: string[];
 }
 
 export interface PortfolioData {
   basicInfo: BasicInfo;
   basicTitles: string[];
+  featured?: Featured;
   education: Education[];
   skills: Skills;
   projects: { [key: string]: Project };
   experiences: Experience[];
-  contests: Contest[];
+  achievements?: Achievement[];
+  socialLinks?: SocialLinks;
 }

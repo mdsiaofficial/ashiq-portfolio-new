@@ -25,12 +25,35 @@
       }
     ],
     "skills": {
-      "programmingLanguages": ["C/C++", "JavaScript", "TypeScript"],
-      "WebDev": ["Tailwind CSS", "React JS","Node JS", "Express JS", "MongoDB"],
-      "developmentTools:": ["Git", "Github"],
-      "coreCompetencies:": ["OOP", "Data Structure and Algorithm", "DBMS"],
-      "operatingSystems": ["Windows", "Linux"],
-      "problemSolvingPlatforms":["Codeforces (150+)", "LeetCode (40+)"]
+      "programmingLanguages": [
+        "C/C++",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "WebDev": [
+        "Tailwind CSS",
+        "React JS",
+        "Node JS",
+        "Express JS",
+        "MongoDB"
+      ],
+      "developmentTools:": [
+        "Git",
+        "Github"
+      ],
+      "coreCompetencies:": [
+        "OOP",
+        "Data Structure and Algorithm",
+        "DBMS"
+      ],
+      "operatingSystems": [
+        "Windows",
+        "Linux"
+      ],
+      "problemSolvingPlatforms": [
+        "Codeforces (150+)",
+        "LeetCode (40+)"
+      ]
     },
     "projects": {
       "project16": {
@@ -39,7 +62,12 @@
         "description": "A Club Portal for Competitive Programming Camp City University",
         "link": "https://cpccu.club",
         "github": "https://github.com/cpccu/cpccu/",
-        "techStack":["React JS", "Tailwind CSS", "JavaScript", "HTML/CSS"],
+        "techStack": [
+          "React JS",
+          "Tailwind CSS",
+          "JavaScript",
+          "HTML/CSS"
+        ],
         "image": "https://i.ibb.co/n353KBb/cpccu.png"
       },
       "project15": {
@@ -48,7 +76,14 @@
         "description": "A MERN Application - Book Store",
         "link": "",
         "github": "https://github.com/mdsiaofficial/bookstore-project-mern",
-        "techStack":["React JS", "Tailwind CSS", "JavaScript", "Node JS", "Express JS", "MongoDB"],
+        "techStack": [
+          "React JS",
+          "Tailwind CSS",
+          "JavaScript",
+          "Node JS",
+          "Express JS",
+          "MongoDB"
+        ],
         "image": "https://i.ibb.co/588FMXF/bookstore.png"
       },
       "project14": {
@@ -57,7 +92,14 @@
         "description": "A CRUD application build following MERN technology.",
         "link": "",
         "github": "https://github.com/mdsiaofficial/crud-app-mern",
-        "techStack":["React JS", "Tailwind CSS", "JavaScript", "Node JS", "Express JS", "MongoDB"],
+        "techStack": [
+          "React JS",
+          "Tailwind CSS",
+          "JavaScript",
+          "Node JS",
+          "Express JS",
+          "MongoDB"
+        ],
         "image": "https://i.ibb.co/sWYTJ0v/crudapp.png"
       },
       "project13": {
@@ -66,7 +108,12 @@
         "description": "A personal portfolio website built with ReactJS and Tailwind CSS",
         "link": "https://ashiq-devv.vercel.app",
         "github": "https://github.com/mdsiaofficial/ashiq-portfolio/",
-        "techStack":["React JS", "Tailwind CSS", "JavaScript", "HTML/CSS"],
+        "techStack": [
+          "React JS",
+          "Tailwind CSS",
+          "JavaScript",
+          "HTML/CSS"
+        ],
         "image": "https://i.ibb.co/vJVwPYk/p1.png"
       },
       "project12": {
@@ -75,7 +122,12 @@
         "description": "A Digital Marketing Website",
         "link": "https://positivus-frontend-react.vercel.app/",
         "github": "https://github.com/mdsiaofficial/Positivus-Frontend-react/",
-        "techStack": ["React JS", "Tailwind CSS", "JavaScript", "HTML/CSS"],
+        "techStack": [
+          "React JS",
+          "Tailwind CSS",
+          "JavaScript",
+          "HTML/CSS"
+        ],
         "image": "https://i.ibb.co/9tKBBD6/p3.png"
       },
       "project11": {
@@ -84,7 +136,12 @@
         "description": "GPT for writing content",
         "link": "https://humanize-frontend-design-react.vercel.app/",
         "github": "https://github.com/mdsiaofficial/Humanize-Frontend-Design-React/",
-        "techStack": ["React JS", "Tailwind CSS", "JavaScript", "HTML/CSS"],
+        "techStack": [
+          "React JS",
+          "Tailwind CSS",
+          "JavaScript",
+          "HTML/CSS"
+        ],
         "image": "https://i.ibb.co/V2TxgVY/p2.png"
       },
       "project10": {
@@ -93,7 +150,13 @@
         "description": "A basic Data table - can Create - Read - Update - Delete data.",
         "link": "https://crud-data-table-project-reactjs.vercel.app/",
         "github": "https://github.com/mdsiaofficial/CRUD-data-table-project-reactjs",
-        "techStack": ["React JS","Tailwind CSS", "HTML", "CSS", "JavaScript"],
+        "techStack": [
+          "React JS",
+          "Tailwind CSS",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "image": "https://i.ibb.co/jzypTmn/crud.png"
       },
       "project9": {
@@ -102,7 +165,13 @@
         "description": "A Frontend design practice.",
         "link": "https://gpt-project-eosin.vercel.app/",
         "github": "https://github.com/mdsiaofficial/gpt-project/",
-        "techStack": ["React JS","Tailwind CSS", "HTML", "CSS", "JavaScript"],
+        "techStack": [
+          "React JS",
+          "Tailwind CSS",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "image": "https://i.ibb.co/zNHSfp5/gpt.png"
       },
       "project8": {
@@ -111,7 +180,13 @@
         "description": "A basic Practice of React Router Dom",
         "link": "https://react-router-project-nine-kappa.vercel.app/",
         "github": "https://github.com/mdsiaofficial/react-router-project/",
-        "techStack": ["React JS","Tailwind CSS", "HTML", "CSS", "JavaScript"],
+        "techStack": [
+          "React JS",
+          "Tailwind CSS",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "image": "https://i.ibb.co/ZTHZMqt/reactrouter.png"
       },
       "project7": {
@@ -120,7 +195,11 @@
         "description": "A basic Analog clock made for exercising.",
         "link": "https://mdsiaofficial.github.io/Analog_Clock/",
         "github": "https://github.com/mdsiaofficial/Analog_Clock",
-        "techStack": ["HTML", "CSS", "JavaScript"],
+        "techStack": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "image": "https://i.ibb.co/KGCptjx/analog.png"
       },
       "project6": {
@@ -129,7 +208,12 @@
         "description": "A basic UI/Frontend idea of a Snacks Restaurant App.",
         "link": "https://mdsiaofficial.github.io/Food-App/",
         "github": "https://github.com/mdsiaofficial/Food-App",
-        "techStack": ["Tailwind CSS","HTML", "CSS", "JavaScript"],
+        "techStack": [
+          "Tailwind CSS",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "image": "https://i.ibb.co/4R0K6gt/restaurant.png"
       },
       "project5": {
@@ -138,7 +222,12 @@
         "description": "A basic frontend idea of a clean UI club portal website.",
         "link": "https://mdsiaofficial.github.io/Club-Portal/",
         "github": "https://github.com/mdsiaofficial/Club-Portal",
-        "techStack": ["Tailwind CSS", "HTML", "CSS", "JavaScript"],
+        "techStack": [
+          "Tailwind CSS",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "image": "https://i.ibb.co/gTCp6Wx/club.png"
       },
       "project4": {
@@ -147,7 +236,11 @@
         "description": "A Kanban Board that can add task, pause, in progress and completed. Also you can DRAG & DROP your task.",
         "link": "https://mdsiaofficial.github.io/Kanban_Board/",
         "github": "https://github.com/mdsiaofficial/Kanban_Board",
-        "techStack": ["HTML", "CSS", "JavaScript"],
+        "techStack": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "image": "https://i.ibb.co/vC9mrj0/kanban.png"
       },
       "project3": {
@@ -156,7 +249,11 @@
         "description": "This Quiz app is a basic quiz app and a small dynamic quiz app.",
         "link": "https://mdsiaofficial.github.io/Quiz-App/",
         "github": "https://github.com/mdsiaofficial/Quiz-App",
-        "techStack": ["HTML", "CSS", "JavaScript"],
+        "techStack": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "image": "https://i.ibb.co/4K79tqj/quiz.png"
       },
       "project2": {
@@ -165,7 +262,11 @@
         "description": "A simple web application to check the weather of a specific city.",
         "link": "https://mdsiaofficial.github.io/Weather-app/",
         "github": "https://github.com/mdsiaofficial/Weather-app",
-        "techStack": ["HTML", "CSS", "JavaScript"],
+        "techStack": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "image": "https://i.ibb.co/Cz9fd34/weather.png"
       },
       "project1": {
@@ -174,7 +275,11 @@
         "description": "A basic todo list app.",
         "link": "https://mdsiaofficial.github.io/Todo-app-for-org/",
         "github": "https://github.com/mdsiaofficial/Todo-app-for-org/",
-        "techStack": ["HTML", "CSS", "JavaScript"],
+        "techStack": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
         "image": "https://i.ibb.co/850SYzP/todo.png"
       }
     },
@@ -188,6 +293,22 @@
       }
     ],
     "contests": [
+      {
+        "title": "ACM ICPC - 2025",
+        "date": "Oct, 2023",
+        "location": "City University Bangladesh",
+        "description": "The International Collegiate Programming Contest is an algorithmic programming contest for college students. ",
+        "logo": "https://i.ibb.co/74Cx1KX/icpc.png",
+        "certificate": "https://i.ibb.co/Pt7wkmz/2024-ICPC-2023-Asia-Dhaka-Preli-Md-Shoriful-Islam-CHALLENGE.jpg"
+      },
+      {
+        "title": "ACM ICPC - 2024",
+        "date": "Oct, 2023",
+        "location": "City University Bangladesh",
+        "description": "The International Collegiate Programming Contest is an algorithmic programming contest for college students. ",
+        "logo": "https://i.ibb.co/74Cx1KX/icpc.png",
+        "certificate": "https://i.ibb.co/Pt7wkmz/2024-ICPC-2023-Asia-Dhaka-Preli-Md-Shoriful-Islam-CHALLENGE.jpg"
+      },
       {
         "title": "JavaScript Essential 1",
         "date": "Jun, 2024",
@@ -203,7 +324,7 @@
         "description": "The International Collegiate Programming Contest is an algorithmic programming contest for college students. ",
         "logo": "https://i.ibb.co/74Cx1KX/icpc.png",
         "certificate": "https://i.ibb.co/Pt7wkmz/2024-ICPC-2023-Asia-Dhaka-Preli-Md-Shoriful-Islam-CHALLENGE.jpg"
-      }, 
+      },
       {
         "title": "Meta Hacker Cup - 2023",
         "date": "Sept, 2023",
@@ -211,7 +332,7 @@
         "description": "Hacker Cup is Meta's annual open programming competition. Open to participants around the world, we invite you to apply problem-solving and algorithmic coding skills to advance through each year’s online rounds, win prizes, and have a chance to make it to the global finals and win the grand prize.",
         "logo": "https://i.ibb.co/y5QQwH7/metahackercup.png",
         "certificate": "https://i.ibb.co/fD7Jkg9/Meta-Hacker-Cup2023.jpg"
-      }, 
+      },
       {
         "title": "ACM ICPC - 2022",
         "date": "Mar, 2023",
@@ -219,7 +340,7 @@
         "description": "The International Collegiate Programming Contest is an algorithmic programming contest for college students.",
         "logo": "https://i.ibb.co/74Cx1KX/icpc.png",
         "certificate": ""
-      },      
+      },
       {
         "title": "23rd Intra University Programming Contest",
         "date": "Oct, 2022",
