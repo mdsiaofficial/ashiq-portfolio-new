@@ -202,6 +202,16 @@ export const portfolioData: PortfolioData = {
       image: "https://i.ibb.co/ZTHZMqt/reactrouter.png",
       featured: false,
     },
+    project17: {
+      title: "Library Management System",
+      date: "Dec 2025",
+      description: "Practice project demonstrating React Router for multi-page navigation.",
+      link: "https://library-cse416.netlify.app/",
+      github: "https://github.com/mdsiaofficial/library-project/",
+      techStack: ["React", "React Router", "Tailwind CSS"],
+      image: "https://i.ibb.co/ZTHZMqt/reactrouter.png",
+      featured: false,
+    },
   },
   experiences: [
     {
