@@ -46,7 +46,7 @@ export default function Skills() {
           <span className="text-cyan-400 font-medium mb-2 block">Technical Arsenal</span>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="text-white">What I </span>
-            <span className="bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">
               Work With
             </span>
           </h2>

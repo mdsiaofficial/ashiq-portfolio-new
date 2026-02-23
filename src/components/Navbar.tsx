@@ -36,7 +36,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 text-xl font-bold text-white">
-            <span className="w-8 h-8 rounded-lg bg-gradient-to-r from-cyan-400 to-emerald-400 flex items-center justify-center">
+            <span className="w-8 h-8 rounded-lg bg-linear-to-r from-cyan-400 to-emerald-400 flex items-center justify-center">
               <FaRocket className="w-4 h-4 text-slate-900" />
             </span>
             <span>Ashiq</span>

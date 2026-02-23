@@ -20,7 +20,7 @@ export default function Experience() {
           <span className="text-cyan-400 font-medium mb-2 block">Career Journey</span>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="text-white">Where I&apos;ve </span>
-            <span className="bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">
               Made Impact
             </span>
           </h2>
@@ -30,7 +30,7 @@ export default function Experience() {
         </motion.div>
 
         <div className="relative">
-          <div className="absolute left-8 top-0 bottom-0 w-px bg-gradient-to-b from-cyan-500 via-emerald-500 to-transparent hidden md:block" />
+          <div className="absolute left-8 top-0 bottom-0 w-px bg-linear-to-b from-cyan-500 via-emerald-500 to-transparent hidden md:block" />
           
           <div className="space-y-8">
             {experiences.map((exp, index) => (
@@ -42,7 +42,7 @@ export default function Experience() {
                 viewport={{ once: true }}
                 className="relative"
               >
-                <div className="md:absolute md:left-8 md:top-8 w-4 h-4 rounded-full bg-gradient-to-r from-cyan-500 to-emerald-500 shadow-lg shadow-cyan-500/30 hidden md:block z-10" />
+                <div className="md:absolute md:left-8 md:top-8 w-4 h-4 rounded-full bg-linear-to-r from-cyan-500 to-emerald-500 shadow-lg shadow-cyan-500/30 hidden md:block z-10" />
                 
                 <div className="md:ml-20 bg-slate-900/50 border border-slate-800 rounded-2xl p-6 md:p-8 hover:border-cyan-500/30 transition-all duration-300">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">

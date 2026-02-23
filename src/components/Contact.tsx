@@ -40,7 +40,7 @@ export default function Contact() {
           <span className="text-cyan-400 font-medium mb-2 block">Let&apos;s Connect</span>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="text-white">Ready to </span>
-            <span className="bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">
               Build Something?
             </span>
           </h2>
@@ -104,7 +104,7 @@ export default function Contact() {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <div className="bg-gradient-to-br from-cyan-500/10 to-emerald-500/10 border border-cyan-500/20 rounded-2xl p-8">
+            <div className="bg-linear-to-br from-cyan-500/10 to-emerald-500/10 border border-cyan-500/20 rounded-2xl p-8">
               <div className="flex items-center gap-3 mb-6">
                 <div className="p-3 bg-cyan-500/20 rounded-xl">
                   <FaRocket className="w-6 h-6 text-cyan-400" />
