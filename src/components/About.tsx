@@ -19,13 +19,14 @@ export default function About() {
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="text-white">More Than </span>
-            <span className="bg-linear-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent">
-              Just Code
+            <span className="bg-linear-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
+              Just a Developer
             </span>
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl leading-relaxed">
-            I&apos;m a builder at heart. Whether it&apos;s leading a team, mentoring the next generation of engineers,
-            or shipping products that solve real problems - I bring the same intensity and focus to everything I do.
+            As a Co-Founder & COO, I bring the same intensity to building teams, scaling operations, 
+            and driving business growth that others bring to writing code. I transform ideas into 
+            profitable, scalable ventures.
           </p>
         </motion.div>
 
@@ -78,25 +79,25 @@ export default function About() {
           <div>
             <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
               <FaCode className="text-emerald-400" />
-              Technical Foundation
+              Operational Excellence
             </h3>
             <div className="space-y-6">
               <div className="p-5 bg-slate-900/50 border border-slate-800 rounded-xl">
-                <h4 className="text-lg font-semibold text-white mb-2">Full-Stack Engineering</h4>
+                <h4 className="text-lg font-semibold text-white mb-2">Team Leadership & Management</h4>
                 <p className="text-slate-400 text-sm">
-                  Building scalable applications with Next.js, TypeScript, Node.js, and modern cloud infrastructure.
+                  Led 500+ member organizations, built high-performing teams, and developed leadership pipelines.
                 </p>
               </div>
               <div className="p-5 bg-slate-900/50 border border-slate-800 rounded-xl">
-                <h4 className="text-lg font-semibold text-white mb-2">AI/ML Integration</h4>
+                <h4 className="text-lg font-semibold text-white mb-2">Operations & Strategy</h4>
                 <p className="text-slate-400 text-sm">
-                  Leveraging OpenAI, Claude, and other AI APIs to build products that users love.
+                  Overseeing end-to-end operations, strategic planning, and business development for sustainable growth.
                 </p>
               </div>
               <div className="p-5 bg-slate-900/50 border border-slate-800 rounded-xl">
-                <h4 className="text-lg font-semibold text-white mb-2">System Architecture</h4>
+                <h4 className="text-lg font-semibold text-white mb-2">Tech + Business Bridge</h4>
                 <p className="text-slate-400 text-sm">
-                  Strong foundation in DSA and system design enables me to build efficient, scalable solutions.
+                  Technical background enables me to make informed decisions, communicate with engineers, and ship products fast.
                 </p>
               </div>
             </div>

@@ -6,19 +6,19 @@ export const portfolioData: PortfolioData = {
     nickname: "Ashiq",
     fullName: "Md Shoriful Islam Ashiq",
     email: "ashiq@midgen.ai",
-    about: "Co-Founder of Midgen building AI-powered content creation tools. Junior Software Engineer at Code Studio. Former ICPC contestant with a passion for building scalable systems and mentoring the next generation of engineers.",
+    about: "Co-Founder & Operational Lead of Midgen leading AI-powered content creation platform with thousands of users globally. Passionate about scaling operations, building high-performing teams, and driving business growth through technology and strategic leadership.",
   },
   basicTitles: [
-    "Co-Founder @ Midgen",
-    "Software Engineer",
-    "Tech Leader",
+    "Co-Founder & COO",
+    "Operations Leader",
+    "Strategic Planner",
   ],
   featured: {
     company: "Midgen",
     tagline: "All-in-one AI Content Creation Platform",
-    description: "Building tools that empower creators globally - Humanizer, Article Writer, AI Detector, and more.",
+    description: "Building tools that empower creators globally - Humanizer, Article Writer, AI Detector, and more. Scaled to 10K+ users.",
     website: "https://midgen.ai",
-    role: "Co-Founder & Operational Lead",
+    role: "Co-Founder & COO",
   },
   education: [
     {
@@ -39,7 +39,7 @@ export const portfolioData: PortfolioData = {
     WebDev: ["Next.js", "React", "Node.js", "Express", "MongoDB", "PostgreSQL"],
     cloud: ["AWS", "Vercel", "Docker"],
     tools: ["Git", "GitHub", "Claude Code", "Cursor"],
-    domains: ["AI/ML Integration", "SaaS Architecture", "System Design"],
+    domains: ["AI/ML Integration", "SaaS Architecture", "System Design", "Team Management", "Operations", "Strategic Planning"],
   },
   projects: {
     project1: {
@@ -215,10 +215,10 @@ export const portfolioData: PortfolioData = {
   },
   experiences: [
     {
-      title: "Co-Founder & Operational Lead",
+      title: "Co-Founder & COO",
       company: "Midgen",
       date: "2024 - Present",
-      responsibilities: "Leading technical strategy, architecture, and development of AI-powered SaaS products. Managing a small development team, making key product decisions, and driving user growth to thousands of active users.",
+      responsibilities: "Leading overall operations, team management, and business strategy. Scaled platform to 10K+ active users. Overseeing product development, marketing, and customer success. Managing and leading development teams while driving revenue growth.",
       image: "https://i.ibb.co/SBJBTT3/atomic.png",
     },
     {
@@ -232,21 +232,21 @@ export const portfolioData: PortfolioData = {
       title: "Former President",
       company: "City University Programming Club (CUPC)",
       date: "2024 - 2025",
-      responsibilities: "Leading the largest programming club at City University with 500+ members. Organizing workshops, contests, and mentoring sessions.",
+      responsibilities: "Led the largest programming club at City University with 500+ members. Organized workshops, contests, and mentoring sessions. Developed leadership and event management skills.",
       image: "https://i.ibb.co/74Cx1KX/icpc.png",
     },
     {
-      title: "Co-Convenor",
+      title: "Former Co-Convenor",
       company: "BASIS Student Forum City University Chapter",
       date: "2024 - 2025",
-      responsibilities: "Leading tech community initiatives and representing BASIS at university level.",
+      responsibilities: "Leading tech community initiatives and representing BASIS at university level. Built partnerships and organized industry events.",
       image: "https://i.ibb.co/74Cx1KX/icpc.png",
     },
     {
       title: "Former President",
       company: "Competitive Programming Camp City University (CPCCU)",
       date: "2024 - 2025",
-      responsibilities: "Organized training programs and contests to prepare students for ICPC.",
+      responsibilities: "Organized training programs and contests to prepare students for ICPC. Managed a team of 20+ volunteers and coordinated events for 500+ participants.",
       image: "https://i.ibb.co/74Cx1KX/icpc.png",
     },
   ],
@@ -328,34 +328,33 @@ export const portfolioData: PortfolioData = {
 
 
 export const stats = [
+  { icon: FaUsers, label: "Active Users", value: "10K+" },
+  { icon: FaUsers, label: "Team Members Led", value: "500+" },
   { icon: FaBuilding, label: "Companies Founded", value: "1" },
-  { icon: FaBuilding, label: "Companies Collaborated", value: "3" },
-  { icon: FaBuilding, label: "Companies Worked", value: "2" },
-  { icon: FaUsers, label: "Club Members Led", value: "500+" },
-  { icon: FaTrophy, label: "Competitive Programming", value: "ICPC" },
-  { icon: FaTrophy, label: "Open Source Software", value: "OSSCCU" },
+  { icon: FaTrophy, label: "Years Leadership", value: "3+" },
+  { icon: FaRocket, label: "Products Launched", value: "4+" },
   { icon: FaLightbulb, label: "Years Experience", value: "5+" },
 ];
 
 export const leadership = [
   {
-    title: "Co-Founder, Midgen",
-    description: "Building AI tools serving thousands of users globally",
+    title: "Co-Founder & COO, Midgen",
+    description: "Overseeing operations, strategy, and team growth - scaled to 10K+ users",
   },
   {
-    title: "President, CUPC",
-    description: "Leading the largest programming club at City University",
+    title: "Former President, CUPC",
+    description: "Led the largest programming club at City University with 500+ members",
   },
   {
     title: "Founding Convenor, OSSCCU",
-    description: "Leading the Open Source Software Community City University",
+    description: "Built and led Open Source Software Community from ground up",
   },
   {
-    title: "BASIS Co-Convener",
+    title: "Former Co-Convenor, BASIS Student Forum City University Chapter",
     description: "Driving tech community initiatives at university level",
   },
   {
-    title: "President, CPCCU",
-    description: "Leading the largest Competitive Programming Camp at City University",
+    title: "Former President, CPCCU",
+    description: "Led the largest Competitive Programming Camp at City University",
   },
 ];

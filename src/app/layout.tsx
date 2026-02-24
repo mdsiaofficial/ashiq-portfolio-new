@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Md Shoriful Islam Ashiq | Portfolio",
+  title: "Ashiq.",
   description: "MERN Stack Developer & Competitive Programmer Portfolio",
 };
 

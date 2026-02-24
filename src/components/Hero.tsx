@@ -41,16 +41,16 @@ export default function Hero() {
               transition={{ delay: 0.2 }}
               className="flex items-center gap-3 mb-6"
             >
-              <span className="px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-sm font-medium">
-                Available for Projects
+              <span className="px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm font-medium">
+                Co-Founder & COO
               </span>
             </motion.div>
 
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-              <span className="text-white">Building the</span>
+              <span className="text-white">Building Solutions,</span>
               <br />
-              <span className="bg-linear-to-r from-cyan-400 via-emerald-400 to-cyan-400 bg-clip-text text-transparent">
-                Future of AI
+              <span className="bg-linear-to-r from-emerald-400 via-cyan-400 to-emerald-400 bg-clip-text text-transparent">
+                Leading Teams, Scaling Operations
               </span>
             </h1>
 
@@ -68,7 +68,7 @@ export default function Hero() {
                 className="px-8 py-4 bg-white text-slate-900 rounded-full font-semibold hover:bg-slate-100 transition-all duration-300 flex items-center gap-2"
               >
                 <FaRocket className="w-4 h-4" />
-                Let&apos;s Work Together
+                Let's Build Together
               </a>
               <a
                 href={portfolioData.featured?.website || "https://midgen.ai"}
@@ -120,7 +120,7 @@ export default function Hero() {
                 <div className="flex items-center gap-3">
                   <div className="w-3 h-3 bg-emerald-500 rounded-full animate-pulse" />
                   <div>
-                    <p className="text-sm font-semibold text-white">Co-Founder</p>
+                    <p className="text-sm font-semibold text-white">Co-Founder & COO</p>
                     <p className="text-xs text-slate-400">@ Midgen</p>
                   </div>
                 </div>
@@ -133,8 +133,8 @@ export default function Hero() {
                 className="absolute -top-6 -right-6 p-4 bg-slate-900/90 backdrop-blur border border-slate-800 rounded-xl"
               >
                 <div className="text-right">
-                  <p className="text-sm font-semibold text-white">5+ Years</p>
-                  <p className="text-xs text-slate-400">Building Products</p>
+                  <p className="text-sm font-semibold text-white">500+ Members</p>
+                  <p className="text-xs text-slate-400">Team Led</p>
                 </div>
               </motion.div>
             </div>
