@@ -1,11 +1,20 @@
 import { PortfolioData } from "./types";
 import { FaRocket, FaUsers, FaTrophy, FaCode, FaBuilding, FaLightbulb } from "react-icons/fa";
 
+export const nickname = "Ashiq.";
+export const fullName = "Md Shoriful Islam Ashiq";
+export const myPortfolioDomain = "https://ashiq.pro.bd";
+export const midgenDomain = "https://midgen.ai";
+export const midgenSoftwareLabsDomain = "https://midgenlabs.com";
+export const personalEmail = "mdsiaofficial@gmail.com";
+export const workEmail_Midgen = "ashiq@midgen.ai";
+export const workEmail_MidgenLabs = "ashiq@midgenlabs.com";
+
 export const portfolioData: PortfolioData = {
   basicInfo: {
-    nickname: "Ashiq",
-    fullName: "Md Shoriful Islam Ashiq",
-    email: "ashiq@midgen.ai",
+    nickname: nickname,
+    fullName: fullName,
+    email: workEmail_Midgen,
     about: "Co-Founder & Operational Lead of Midgen leading AI-powered content creation platform with thousands of users globally. Passionate about scaling operations, building high-performing teams, and driving business growth through technology and strategic leadership.",
   },
   basicTitles: [
@@ -17,7 +26,7 @@ export const portfolioData: PortfolioData = {
     company: "Midgen",
     tagline: "All-in-one AI Content Creation Platform",
     description: "Building tools that empower creators globally - Humanizer, Article Writer, AI Detector, and more. Scaled to 10K+ users.",
-    website: "https://midgen.ai",
+    website: midgenDomain,
     role: "Co-Founder & COO",
   },
   education: [
@@ -76,7 +85,7 @@ export const portfolioData: PortfolioData = {
       title: "Personal Portfolio",
       date: "2024",
       description: "Modern portfolio website showcasing projects, experience, and skills with responsive design.",
-      link: "https://ashiq.dev",
+      link: "https://ashiq.pro.bd",
       github: "https://github.com/mdsiaofficial/ashiq-portfolio/",
       techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
       image: "https://i.ibb.co/vJVwPYk/p1.png",
