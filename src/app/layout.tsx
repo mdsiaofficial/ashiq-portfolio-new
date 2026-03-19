@@ -1,3 +1,4 @@
+import { GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 import type { Metadata } from "next";
 
@@ -145,12 +146,11 @@ export const metadata: Metadata = {
   // },
 
   verification: {
-    google: "google-site-verification-code",
+    google: "Yu1Nqm7wIPrNBUam-3SuA5lg2sHswiKR_MxkE18OmZE",
     other: {
       me: ["ashiq@midgen.ai"],
     },
   },
-
   other: {
     "theme-color": "#0f172a",
     "color-scheme": "dark",
@@ -176,7 +176,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body>{children}</body>
+      <body>
+        {children}
+      </body>
     </html>
   );
 }
