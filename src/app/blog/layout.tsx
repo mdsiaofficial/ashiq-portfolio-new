@@ -1,6 +1,6 @@
 import { GoogleTagManager } from "@next/third-parties/google";
-import "./globals.css";
 import type { Metadata } from "next";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ashiq.pro.bd"),
@@ -169,7 +169,7 @@ export const viewport = {
   viewportFit: "cover",
 };
 
-export default function RootLayout({
+export default function BlogLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -179,6 +179,7 @@ export default function RootLayout({
       <meta name="google-site-verification" content="Yu1Nqm7wIPrNBUam-3SuA5lg2sHswiKR_MxkE18OmZE" />
       {/* <GoogleTagManager gtmId="GTM-XYZ" /> */}
       <body>
+        <Navbar />
         {children}
       </body>
     </html>
