@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://ashiq.pro.bd"),
 
   title: {
-    default: "Md Shoriful Islam Ashiq",
+    default: "Blogs",
     template: "%s | Md Shoriful Islam Ashiq",
   },
   description: "Md Shoriful Islam Ashiq - Co-Founder & COO of Midgen. Building AI-powered SaaS products. Expert in operations leadership, content creation tools. Leading operations, scaling teams, team management, and scaling startups. Based in Bangladesh.",
