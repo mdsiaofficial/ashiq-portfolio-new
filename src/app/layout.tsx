@@ -176,6 +176,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <meta name="google-site-verification" content="Yu1Nqm7wIPrNBUam-3SuA5lg2sHswiKR_MxkE18OmZE" />
       <body>
         {children}
       </body>
