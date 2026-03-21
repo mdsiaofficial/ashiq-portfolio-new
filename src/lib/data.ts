@@ -231,9 +231,16 @@ export const portfolioData: PortfolioData = {
       image: "https://i.ibb.co/SBJBTT3/atomic.png",
     },
     {
+      title: "Software Engineer",
+      company: "Code Studio",
+      date: "Nov 2025 - Present",
+      responsibilities: "Building production-ready applications using React, Next.js, and MySQL. Collaborating with cross-functional teams to deliver enterprise solutions.",
+      image: "https://i.ibb.co/SBJBTT3/atomic.png",
+    },
+    {
       title: "Junior Software Engineer",
       company: "Code Studio",
-      date: "Nov 2024 - Present",
+      date: "Nov 2024 - 2025",
       responsibilities: "Building production-ready applications using React, Next.js, and MySQL. Collaborating with cross-functional teams to deliver enterprise solutions.",
       image: "https://i.ibb.co/SBJBTT3/atomic.png",
     },
