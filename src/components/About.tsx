@@ -2,11 +2,12 @@
 
 import { motion } from "framer-motion";
 import { FaRocket, FaUsers, FaTrophy, FaCode, FaBuilding, FaLightbulb } from "react-icons/fa";
-import { leadership, portfolioData, stats } from "@/lib/data";
+import { portfolioData, stats } from "@/lib/data";
 
 
 
 export default function About() {
+  const experiences = portfolioData.experiences;
   return (
     <section id="about" className="py-24 relative bg-slate-950">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -54,27 +55,6 @@ export default function About() {
           viewport={{ once: true }}
           className="grid lg:grid-cols-2 gap-12 items-start"
         >
-          <div>
-            <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
-              <FaRocket className="text-cyan-400" />
-              Leadership & Impact
-            </h3>
-            <div className="space-y-6">
-              {leadership.map((item, index) => (
-                <motion.div
-                  key={item.title}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  className="p-5 bg-slate-900/50 border-l-2 border-cyan-500/50 rounded-r-lg"
-                >
-                  <h4 className="text-lg font-semibold text-white mb-1">{item.title}</h4>
-                  <p className="text-slate-400 text-sm">{item.description}</p>
-                </motion.div>
-              ))}
-            </div>
-          </div>
 
           <div>
             <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
@@ -98,6 +78,33 @@ export default function About() {
                 <h4 className="text-lg font-semibold text-white mb-2">Tech + Business Bridge</h4>
                 <p className="text-slate-400 text-sm">
                   Technical background enables me to make informed decisions, communicate with engineers, and ship products fast.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+              <FaBuilding className="text-cyan-400" />
+              Business Impact
+            </h3>
+            <div className="space-y-6">
+              <div className="p-5 bg-slate-900/50 border border-slate-800 rounded-xl">
+                <h4 className="text-lg font-semibold text-white mb-2">Project Management & Execution</h4>
+                <p className="text-slate-400 text-sm">
+                  Successfully launched multiple initiatives, managed cross-functional projects, and delivered results on time and within budget.
+                </p>
+              </div>
+              <div className="p-5 bg-slate-900/50 border border-slate-800 rounded-xl">
+                <h4 className="text-lg font-semibold text-white mb-2">Product Development</h4>
+                <p className="text-slate-400 text-sm">
+                  Shipped multiple products from 0 to 1, managed product roadmaps, and delivered features that drive user engagement.
+                </p>
+              </div>
+              <div className="p-5 bg-slate-900/50 border border-slate-800 rounded-xl">
+                <h4 className="text-lg font-semibold text-white mb-2">Stakeholder Relations</h4>
+                <p className="text-slate-400 text-sm">
+                  Built relationships with investors, partners, and clients while communicating vision and driving alignment.
                 </p>
               </div>
             </div>

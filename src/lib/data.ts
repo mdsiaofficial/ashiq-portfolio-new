@@ -229,41 +229,64 @@ export const portfolioData: PortfolioData = {
       date: "2024 - Present",
       responsibilities: "Leading overall operations, team management, and business strategy. Scaled platform to 10K+ active users. Overseeing product development, marketing, and customer success. Managing and leading development teams while driving revenue growth.",
       image: "https://i.ibb.co/SBJBTT3/atomic.png",
+      impact: "Overseeing operations, strategy, and team growth - scaled to 10K+ users",
     },
     {
       title: "Software Engineer",
       company: "Code Studio",
-      date: "Nov 2025 - Present",
-      responsibilities: "Building production-ready applications using React, Next.js, and MySQL. Collaborating with cross-functional teams to deliver enterprise solutions.",
+      date: "November, 2025 - Present",
+      responsibilities: "Contributed to the DevOps implementation deployements along with Building production-ready applications using React, Next.js, and MySQL. Collaborating with cross-functional teams to deliver enterprise solutions.",
       image: "https://i.ibb.co/SBJBTT3/atomic.png",
+      impact: "Contributed to the DevOps implementation deployements along with the development of production-ready applications",
     },
     {
       title: "Junior Software Engineer",
       company: "Code Studio",
-      date: "Nov 2024 - 2025",
+      date: "November, 2024 - December, 2025",
       responsibilities: "Building production-ready applications using React, Next.js, and MySQL. Collaborating with cross-functional teams to deliver enterprise solutions.",
       image: "https://i.ibb.co/SBJBTT3/atomic.png",
+      impact: "Contributed to the development of production-ready applications using React, Next.js, and MySQL.",
+    },
+    {
+      title: "Founding Convenor",
+      company: "Open Source Software Community City University (OSSCCU)",
+      date: "March, 2026 - Present",
+      responsibilities: "Founded and led the open source community at City University. Organized hackathons, workshops on open source contribution, and mentored 300+ students in collaborative development practices.",
+      image: "https://i.ibb.co/74Cx1KX/icpc.png",
+      impact: "Built and led Open Source Software Community from ground up",
     },
     {
       title: "Former President",
       company: "City University Programming Club (CUPC)",
-      date: "2024 - 2025",
-      responsibilities: "Led the largest programming club at City University with 500+ members. Organized workshops, contests, and mentoring sessions. Developed leadership and event management skills.",
+      date: "September, 2024 - November, 2025",
+      responsibilities: "Reformed and led the largest programming club at City University with 500+ members. Organized workshops, contests, and mentoring sessions. Developed leadership and event management skills.",
       image: "https://i.ibb.co/74Cx1KX/icpc.png",
+      impact: "Led the largest programming club at City University with 500+ members",
     },
     {
       title: "Former Co-Convenor",
       company: "BASIS Student Forum City University Chapter",
-      date: "2024 - 2025",
+      date: "April, 2024 - December, 2025",
       responsibilities: "Leading tech community initiatives and representing BASIS at university level. Built partnerships and organized industry events.",
       image: "https://i.ibb.co/74Cx1KX/icpc.png",
+
+      impact: "Driving tech community initiatives at university level",
     },
     {
       title: "Former President",
       company: "Competitive Programming Camp City University (CPCCU)",
-      date: "2024 - 2025",
-      responsibilities: "Organized training programs and contests to prepare students for ICPC. Managed a team of 20+ volunteers and coordinated events for 500+ participants.",
+      date: "January, 2024 - September,2025",
+      responsibilities: "Founded the club and Organized training programs and contests to prepare students for ICPC. Managed a team of 20+ volunteers and coordinated events for 500+ participants.",
       image: "https://i.ibb.co/74Cx1KX/icpc.png",
+      impact: "Led the largest Competitive Programming Camp at City University",
+    },
+    {
+      title: "Former Convenor",
+      company: "Competitive Programming Camp City University (CPCCU)",
+      date: "October, 2022 - January,2024",
+      responsibilities: "Founded the club and Organized training programs and contests to prepare students for ICPC. Managed a team of 20+ volunteers and coordinated events for 500+ participants.",
+      image: "https://i.ibb.co/74Cx1KX/icpc.png",
+      impact: "Led the largest Competitive Programming Camp at City University",
     },
   ],
   achievements: [
@@ -350,27 +373,4 @@ export const stats = [
   { icon: FaTrophy, label: "Years Leadership", value: "3+" },
   { icon: FaRocket, label: "Products Launched", value: "4+" },
   { icon: FaLightbulb, label: "Years Experience", value: "5+" },
-];
-
-export const leadership = [
-  {
-    title: "Co-Founder & COO, Midgen",
-    description: "Overseeing operations, strategy, and team growth - scaled to 10K+ users",
-  },
-  {
-    title: "Former President, CUPC",
-    description: "Led the largest programming club at City University with 500+ members",
-  },
-  {
-    title: "Founding Convenor, OSSCCU",
-    description: "Built and led Open Source Software Community from ground up",
-  },
-  {
-    title: "Former Co-Convenor, BASIS Student Forum City University Chapter",
-    description: "Driving tech community initiatives at university level",
-  },
-  {
-    title: "Former President, CPCCU",
-    description: "Led the largest Competitive Programming Camp at City University",
-  },
 ];

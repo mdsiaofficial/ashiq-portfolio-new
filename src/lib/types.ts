@@ -29,6 +29,7 @@ export interface Experience {
   date: string;
   responsibilities: string;
   image: string;
+  impact: string;
 }
 
 export interface Achievement {
